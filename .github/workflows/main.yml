@@ -58,7 +58,7 @@ jobs:
 
   docker-ci:
     runs-on: ubuntu-latest
-    if: ${{ github.ref_name == 'main' || github.ref_name == 'voleger' }}
+    if: ${{ github.ref_name == 'main' || github.ref_name == 'your_name' }}
     needs: python-ci
     steps:
 
